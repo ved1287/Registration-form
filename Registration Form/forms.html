@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration Form</title>
+   <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form action="success.html" class="container">
+    <h1 style=text-align:center>Welcome to Registration Form</h1>
+    <table>
+        <tr>
+            <td>First Name :</td>
+           <td> <input type="text" placeholder="Enter First Name" required></td>
+        </tr>
+        <tr>
+            <td>Last Name :</td>
+           <td> <input type="text" placeholder="Enter Last Name" required></td>
+        </tr>
+        <tr>
+            <td>Company Name :</td>
+           <td> <input type="text"  required placeholder="Enter Your Company Name"></td>
+        </tr>
+        <tr>
+            <td>E-mail :</td>
+           <td> <input type="email" placeholder="Enter E-mail" name="email" required></td>
+        </tr>
+        <tr>
+            <td>Gender :</td>
+            <td>
+                <input type="radio" name="Gender"> Male
+                <input type="radio" name="Gender"> Female
+               </td>
+        </tr>
+        <tr>
+            <td>Date of Birth :</td>
+           <td> <input type="date"></td>
+        </tr>
+        <tr>
+            <td>Phone no :</td>
+            <td>
+             <select>
+              <option>+91</option>
+              <option>933</option>
+              <option>979</option>
+              <option>973</option>
+              <option>972</option>
+              <option>974</option>
+             </select>
+             <input type="phone">
+            </td>
+           </tr>
+           <tr>
+            <td>Hobbies :</td>
+            <td>
+                <input type="checkbox"> Singing
+                <input type="checkbox" >  Dancing
+                <input type="checkbox" >  Cricket
+                <input type="checkbox">  Reading Book
+               </td>
+        </tr>
+        <tr>
+            <td>Qualification :</td>
+            <td>
+                <select>
+                    <option>Select Option</option>
+                    <option>B.TECH</option>
+                    <option>INTERMEDIATE</option>
+                    <option>P.HD</option>
+                   
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Address :</td>
+            <td><textarea placeholder="Enter Your Address"></textarea></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>

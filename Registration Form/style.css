@@ -1,0 +1,22 @@
+body{
+background-image: url("AmzdkG9.jpg");
+}
+h1{
+    color:rgb(15, 14, 14); 
+    position: center;  
+}
+body {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    
+  }
+  .container{
+      max-width:700px;
+      width:100%;
+      background:#4682B4;
+      padding:25px 30px;
+      border-radius: 5px;
+  }
